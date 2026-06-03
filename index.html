@@ -3,208 +3,390 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trauma-Informed Care — Ramak Jaberizadeh, RP(Q)</title>
+  <title>Ramak Jaberizadeh, RP(Q) — Registered Psychotherapist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css" />
 </head>
 <body>
 
   <!-- NAV -->
-  <header class="nav">
+  <header class="nav" id="nav">
     <div class="nav__inner">
-      <a href="#" class="nav__logo">Ramak Jaberizadeh, RP(Q)</a>
+      <a href="index.html" class="nav__logo">Ramak Jaberizadeh, RP(Q)</a>
       <nav class="nav__links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contact</a>
-        <a href="#" class="nav__services">Services <span class="nav__chevron">&#8964;</span></a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#services" class="nav__services">Services <span class="nav__chevron">&#8964;</span></a>
       </nav>
-      <a href="#book" class="btn btn--primary">Schedule Consultation</a>
+      <a href="#contact" class="btn btn--primary">Schedule Consultation</a>
     </div>
   </header>
 
-  <!-- PAGE -->
-  <main class="page">
-    <div class="container">
-
-      <!-- Back -->
-      <a href="#" class="back-link">&#8592; Back</a>
-
-      <!-- Layout -->
-      <div class="layout">
-
-        <!-- LEFT: Main content -->
-        <div class="main">
-
-          <!-- Service header -->
-          <div class="service-header">
-            <div class="service-header__top">
-              <div class="service-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                </svg>
-              </div>
-              <div class="service-header__text">
-                <h1>Trauma-Informed Care</h1>
-                <p>Specialized treatment for trauma survivors using evidence-based approaches.</p>
-              </div>
-            </div>
-            <div class="service-meta">
-              <span class="service-meta__item">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#717182" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                50 minutes
-              </span>
-              <span class="service-meta__item">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#717182" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                $190
-              </span>
-              <span class="service-meta__item">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#717182" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                Individual Sessions
-              </span>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__container">
+      <div class="hero__text">
+        <p class="hero__name">Ramak Jaberizadeh</p>
+        <p class="hero__role">Registered Psychotherapist (Qualifying)</p>
+        <h1 class="hero__title">Find Your Path to<br>Inner Peace</h1>
+        <p class="hero__sub">Professional therapy services to help you navigate life's challenges and discover your inner strength. Take the first step towards healing.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Schedule Consultation</a>
+          <a href="#about" class="btn btn--outline">Learn More</a>
+        </div>
+      </div>
+      <div class="hero__card">
+        <h3>Ready to Begin Your Journey?</h3>
+        <p>Schedule a confidential consultation to discuss your needs and goals</p>
+        <a href="#contact" class="btn btn--primary btn--full" style="margin:16px 0;">Schedule Your Consultation</a>
+        <p class="hero__card-note">Free consultation · No commitment required</p>
+        <div class="hero__badges">
+          <div class="hero__badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <div>
+              <strong>100% Confidential</strong>
+              <span>Your privacy is our priority</span>
             </div>
           </div>
-
-          <!-- About -->
-          <section class="section">
-            <h2>About This Service</h2>
-            <p>Trauma-Informed Care recognizes the widespread impact of trauma and prioritizes safety, trustworthiness, and healing. This approach uses specialized techniques like EMDR and somatic therapies to help process traumatic experiences safely.</p>
-          </section>
-
-          <!-- Key Areas -->
-          <section class="section">
-            <h3>Key Areas Addressed</h3>
-            <div class="tags">
-              <span class="tag">EMDR Therapy</span>
-              <span class="tag">Somatic Approaches</span>
-              <span class="tag">Safety Planning</span>
-              <span class="tag">Resilience Building</span>
-            </div>
-          </section>
-
-          <!-- Benefits -->
-          <section class="section">
-            <h3>Benefits You Can Expect</h3>
-            <ul class="benefits">
-              <li>Safe processing of traumatic memories</li>
-              <li>Reduction in trauma-related symptoms</li>
-              <li>Improved sense of safety and control</li>
-              <li>Enhanced emotional regulation</li>
-              <li>Stronger resilience and coping skills</li>
-              <li>Restored sense of empowerment</li>
-            </ul>
-          </section>
-
-          <!-- Who this helps -->
-          <section class="section">
-            <h3>Who This Service Helps</h3>
-            <ul class="bullet-list">
-              <li>Survivors of childhood trauma</li>
-              <li>Individuals with PTSD symptoms</li>
-              <li>Those who have experienced recent trauma</li>
-              <li>People with complex trauma histories</li>
-              <li>Anyone seeking trauma-informed support</li>
-            </ul>
-          </section>
-
-          <!-- The Process -->
-          <section class="section">
-            <h3>The Process</h3>
-            <ol class="process">
-              <li><span class="process__num">1</span> Trauma assessment and safety planning</li>
-              <li><span class="process__num">2</span> Stabilization and resource building</li>
-              <li><span class="process__num">3</span> Gradual trauma processing using specialized techniques</li>
-              <li><span class="process__num">4</span> Integration and consolidation of healing</li>
-              <li><span class="process__num">5</span> Relapse prevention and ongoing support</li>
-            </ol>
-          </section>
-
-          <!-- What to Expect -->
-          <div class="callout">
-            <h3>What to Expect</h3>
-            <p>Treatment begins with establishing safety and building coping resources before gradually processing traumatic memories using specialized, evidence-based techniques at your own pace.</p>
-          </div>
-
-        </div><!-- /main -->
-
-        <!-- RIGHT: Sidebar -->
-        <aside class="sidebar">
-
-          <!-- Book card -->
-          <div class="card card--blue" id="book">
-            <div class="card__header">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-              Book This Service
-            </div>
-            <div class="card__body">
-              <dl class="details">
-                <div class="details__row">
-                  <dt>Duration:</dt>
-                  <dd>50 minutes</dd>
-                </div>
-                <div class="details__row">
-                  <dt>Price:</dt>
-                  <dd>$190</dd>
-                </div>
-                <div class="details__row">
-                  <dt>Format:</dt>
-                  <dd>In-person &amp; Online</dd>
-                </div>
-              </dl>
-              <div class="card__actions">
-                <a href="#" class="btn btn--primary btn--full">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                  Schedule Session
-                </a>
-                <a href="#" class="btn btn--outline btn--full">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                  Ask Questions
-                </a>
-              </div>
-              <p class="card__note">Free consultation available to ensure we're a good fit</p>
+          <div class="hero__badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <div>
+              <strong>Compassionate Care</strong>
+              <span>Personalized approach</span>
             </div>
           </div>
-
-          <!-- Other services -->
-          <div class="card">
-            <div class="card__header card__header--plain">Other Services</div>
-            <ul class="other-services">
-              <li class="other-services__item">
-                <div class="other-services__icon">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="2" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                </div>
-                <div>
-                  <strong>Individual Therapy</strong>
-                  <span>50 minutes · $190</span>
-                </div>
-              </li>
-              <li class="other-services__item">
-                <div class="other-services__icon">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                </div>
-                <div>
-                  <strong>Couples Therapy</strong>
-                  <span>50 minutes · $190</span>
-                </div>
-              </li>
-              <li class="other-services__item">
-                <div class="other-services__icon">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                </div>
-                <div>
-                  <strong>Cognitive Behavioral Therapy</strong>
-                  <span>50 minutes · $190</span>
-                </div>
-              </li>
-            </ul>
+          <div class="hero__badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <strong>24hr Response</strong>
+              <span>Quick consultation booking</span>
+            </div>
           </div>
-
-        </aside>
+        </div>
       </div>
     </div>
-  </main>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__container">
+      <div class="about__photo">
+        <div class="about__photo-placeholder">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <p class="about__photo-caption">Ramak Jaberizadeh, Registered Psychotherapist</p>
+      </div>
+      <div class="about__text">
+        <p class="section-eyebrow">About Ramak Jaberizadeh</p>
+        <h2>Registered Psychotherapist (Qualifying) dedicated to providing compassionate, evidence-based therapy tailored to your unique needs and goals.</h2>
+
+        <h4>My Approach</h4>
+        <p>I work with youth and adults navigating anxiety, depression, grief, relationship challenges, life transitions, identity exploration, cultural dynamics, and the effects of trauma, displacement, and marginalization. You are the expert of your life; my role is to support you in reconnecting with your inner wisdom and strengths.</p>
+        <p>With a background in communications and counselling psychology, I've come to deeply appreciate how language shapes our sense of self and helps us make meaning of our experiences. In our work together, we'll explore new perspectives, reflect on helpful and limiting beliefs, and reclaim your narrative in a way that feels authentic and empowering.</p>
+        <p>Meaningful shifts tend to happen when we feel safe enough to be honest. That's what I strive to offer — a relationship where you can show up as you are, speak openly, and trust you'll be met with respect, care, and understanding.</p>
+
+        <h4>Credentials &amp; Training</h4>
+        <ul class="credentials">
+          <li>Bachelor of Arts (BA)</li>
+          <li>Master of Arts in Counselling Psychology (MACP)</li>
+          <li>College of Registered Psychotherapists of Ontario (CRPO)</li>
+          <li>Evidence-Based Therapy Specialist</li>
+        </ul>
+
+        <h4>Therapeutic Approaches</h4>
+        <div class="approach-tags">
+          <span class="tag">Narrative Therapy</span>
+          <span class="tag">Cognitive-Behavioural Therapy (CBT)</span>
+          <span class="tag">Solution-Focused Therapy</span>
+        </div>
+
+        <h4>Areas of Specialty</h4>
+        <div class="approach-tags">
+          <span class="tag">Anxiety &amp; Depression</span>
+          <span class="tag">Grief &amp; Loss</span>
+          <span class="tag">Relationship Challenges</span>
+          <span class="tag">Life Transitions</span>
+          <span class="tag">Identity Exploration</span>
+          <span class="tag">Cultural Dynamics</span>
+          <span class="tag">Trauma Recovery</span>
+          <span class="tag">Displacement &amp; Marginalization</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="services__container">
+      <div class="services__header">
+        <h2>Therapy Services</h2>
+        <p>Comprehensive mental health services designed to meet you where you are and help you achieve your therapeutic goals.</p>
+      </div>
+      <div class="services__grid">
+
+        <a href="service.html?id=individual-therapy" class="service-card">
+          <div class="service-card__icon" style="background:#FFF1F1">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#E57373" stroke-width="1.8" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div>
+            <h4>Individual Therapy</h4>
+            <p class="service-card__meta">50 minutes · $190</p>
+          </div>
+          <p class="service-card__desc">One-on-one sessions tailored to your unique needs and goals.</p>
+          <div class="service-card__tags">
+            <span class="tag">Anxiety &amp; Depression</span>
+            <span class="tag">Trauma Recovery</span>
+            <span class="tag">Life Transitions</span>
+            <span class="tag">Self-Esteem Building</span>
+          </div>
+          <span class="service-card__link">Learn More →</span>
+        </a>
+
+        <a href="service.html?id=couples-therapy" class="service-card">
+          <div class="service-card__icon" style="background:#F3F0FF">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#7986CB" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <h4>Couples Therapy</h4>
+            <p class="service-card__meta">50 minutes · $190</p>
+          </div>
+          <p class="service-card__desc">Strengthen your relationship through improved communication and understanding.</p>
+          <div class="service-card__tags">
+            <span class="tag">Communication Skills</span>
+            <span class="tag">Conflict Resolution</span>
+            <span class="tag">Intimacy Issues</span>
+            <span class="tag">Pre-marital Counseling</span>
+          </div>
+          <span class="service-card__link">Learn More →</span>
+        </a>
+
+        <a href="service.html?id=cbt" class="service-card">
+          <div class="service-card__icon" style="background:#F9F0FF">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#AB47BC" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <div>
+            <h4>Cognitive Behavioral Therapy</h4>
+            <p class="service-card__meta">50 minutes · $190</p>
+          </div>
+          <p class="service-card__desc">Evidence-based approach to changing negative thought patterns and behaviors.</p>
+          <div class="service-card__tags">
+            <span class="tag">Thought Restructuring</span>
+            <span class="tag">Behavioral Activation</span>
+            <span class="tag">Exposure Therapy</span>
+            <span class="tag">Skill Building</span>
+          </div>
+          <span class="service-card__link">Learn More →</span>
+        </a>
+
+        <a href="service.html?id=mindfulness" class="service-card">
+          <div class="service-card__icon" style="background:#FFFBEB">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+          </div>
+          <div>
+            <h4>Mindfulness-Based Therapy</h4>
+            <p class="service-card__meta">50 minutes · $190</p>
+          </div>
+          <p class="service-card__desc">Integrate mindfulness practices to reduce stress and increase self-awareness.</p>
+          <div class="service-card__tags">
+            <span class="tag">Meditation Techniques</span>
+            <span class="tag">Stress Reduction</span>
+            <span class="tag">Present Moment Awareness</span>
+            <span class="tag">Emotional Regulation</span>
+          </div>
+          <span class="service-card__link">Learn More →</span>
+        </a>
+
+        <a href="service.html?id=trauma" class="service-card">
+          <div class="service-card__icon" style="background:#EFF6FF">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h4>Trauma-Informed Care</h4>
+            <p class="service-card__meta">50 minutes · $190</p>
+          </div>
+          <p class="service-card__desc">Specialized treatment for trauma survivors using evidence-based approaches.</p>
+          <div class="service-card__tags">
+            <span class="tag">EMDR Therapy</span>
+            <span class="tag">Somatic Approaches</span>
+            <span class="tag">Safety Planning</span>
+            <span class="tag">Resilience Building</span>
+          </div>
+          <span class="service-card__link">Learn More →</span>
+        </a>
+
+        <a href="service.html?id=brief-solution" class="service-card">
+          <div class="service-card__icon" style="background:#F0FDFA">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <h4>Brief Solution-Focused Therapy</h4>
+            <p class="service-card__meta">50 minutes · $190</p>
+          </div>
+          <p class="service-card__desc">Goal-oriented therapy focused on solutions and achieving specific outcomes.</p>
+          <div class="service-card__tags">
+            <span class="tag">Goal Setting</span>
+            <span class="tag">Solution Finding</span>
+            <span class="tag">Strength Building</span>
+            <span class="tag">Future Planning</span>
+          </div>
+          <span class="service-card__link">Learn More →</span>
+        </a>
+
+      </div>
+      <p class="services__note">All sessions are confidential and conducted in a safe, supportive environment.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq__container">
+      <div class="faq__header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Common questions about therapy and what you can expect from our work together.</p>
+      </div>
+      <div class="faq__list">
+
+        <details class="faq__item">
+          <summary>How do I know if therapy is right for me?</summary>
+          <p>Therapy can benefit anyone who wants support navigating life's challenges — whether you're dealing with a specific issue or simply want to understand yourself better. If you're feeling stuck, overwhelmed, or just curious about your patterns, therapy can help.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>What can I expect in my first session?</summary>
+          <p>Your first session is a chance for us to get to know each other. We'll talk about what brings you to therapy, your goals, and your history. It's also an opportunity for you to ask questions and see if we're a good fit.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>How long does therapy typically take?</summary>
+          <p>The length of therapy varies depending on your goals and needs. Some people benefit from a few sessions, while others prefer ongoing support over months or years. We'll regularly review your progress and adjust our approach accordingly.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>Is therapy confidential?</summary>
+          <p>Yes. Everything you share in therapy is strictly confidential. There are limited exceptions required by law — such as if there is risk of harm to yourself or others — which I'll explain fully at the start of our work together.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>Do you accept insurance?</summary>
+          <p>Many extended health benefit plans cover services provided by a Registered Psychotherapist. I recommend checking with your insurer to confirm your coverage. I can provide receipts for reimbursement.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>What's the difference between therapy and counseling?</summary>
+          <p>While the terms are often used interchangeably, psychotherapy typically involves deeper, longer-term work exploring patterns, emotions, and the root causes of distress. Counselling often focuses on specific issues and shorter-term solutions.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>Can I do therapy online?</summary>
+          <p>Yes. I offer both in-person and secure online sessions. Online therapy is just as effective as in-person for most concerns and offers the flexibility of attending from wherever you feel comfortable.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>What if I don't feel comfortable with you as my therapist?</summary>
+          <p>The therapeutic relationship is the most important factor in effective therapy. If at any point you don't feel our approach is working for you, I encourage you to say so. I'll do my best to adjust or help you find someone who's a better fit.</p>
+        </details>
+
+      </div>
+      <div class="faq__cta">
+        <p>Have a question that's not answered here?</p>
+        <a href="#contact" class="btn btn--primary">Contact me directly for more information</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__container">
+      <div class="contact__info">
+        <p class="section-eyebrow--light">Get In Touch</p>
+        <h2>Ready to take the first step? I'm here to support you on your journey to better mental health and wellbeing.</h2>
+        <div class="contact__details">
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.29 6.29l.86-.86a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <strong>(647) 360-5434</strong>
+              <span>Available during business hours</span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Office Location</strong>
+              <span>270 Danforth Avenue, Toronto, ON M4K — Danforth Village</span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <strong>Office Hours</strong>
+              <span>Monday – Friday: 9AM – 7PM · Weekend appointments available</span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#397DFF" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <strong>Scheduling</strong>
+              <span>Flexible scheduling with online booking available. 24-hour cancellation policy.</span>
+            </div>
+          </div>
+        </div>
+        <p class="contact__privacy">All communications and sessions are completely confidential and HIPAA compliant.</p>
+      </div>
+
+      <div class="contact__form-wrap">
+        <h3>Send a Message</h3>
+        <p>Fill out the form below and I'll get back to you within 24 hours.</p>
+        <form class="contact__form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name *</label>
+              <input type="text" placeholder="Enter your first name" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name *</label>
+              <input type="text" placeholder="Enter your last name" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" placeholder="(555) 123-4567" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Preferred Contact Method</label>
+            <select>
+              <option>Email</option>
+              <option>Phone</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>What brings you to therapy?</label>
+            <textarea rows="3" placeholder="Please share what you're hoping to work on in therapy. This helps me understand how I can best support you."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Additional questions or comments</label>
+            <textarea rows="3" placeholder="Feel free to ask any questions about my approach, services, or the therapy process."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-note">By submitting this form, you acknowledge that your information will be kept confidential and used only to respond to your inquiry.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Ramak Jaberizadeh, RP(Q) &copy; 2024 · All rights reserved</p>
+  </footer>
 
 </body>
 </html>
